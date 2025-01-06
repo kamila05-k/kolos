@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django_movie.movies.views.Views" />
+          <option value="django_movie.movies.views.View" />
+          <option value="django_movie.movies.models.Movie.objects" />
+          <option value="requests" />
+          <option value="lalafo_parsink.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
