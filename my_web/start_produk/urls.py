@@ -35,6 +35,5 @@ urlpatterns = [
     path('orders-items/<int:pk>/', OrderItemRetrieveUpdateDestroyAPIView.as_view(), name='order-item-detail'),
 
     # Special view to restore stock after order item deletion
-    path('orders-items/<int:pk>/restore-stock/', OrderItemRestoreStockView.as_view(), name='order-item-restore-stock'),
 
 ]
