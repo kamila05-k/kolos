@@ -4,8 +4,8 @@ urlpatterns = [
     path('product/create/', ProductCreateAPIView.as_view(), name='product-create'),
     path('product/update/<int:pk>/', ProductUpdateAPIView.as_view(), name='product-update'),
     # главный
-    path('product/list', ProductListAPIView.as_view(), name='product-list'),
-    path('product/update/<int:pk>/list', ProductsUpdateAPIView.as_view(), name='product-update-delete'),
+    path('home/list', ProductListAPIView.as_view(), name='product-list'),
+    path('home/update/<int:pk>/list', ProductsUpdateAPIView.as_view(), name='product-update-delete'),
 # архив
     path('product/archive/<int:pk>/', ArchiveProductView.as_view(), name='archive-product'),
     path('product/restore/<int:pk>/', RestoreProductView.as_view(), name='restore-product'),
